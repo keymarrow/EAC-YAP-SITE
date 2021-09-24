@@ -13,6 +13,7 @@ nav.top{
     border: 1px solid #25273B;
     background-color: hsl(235, 23%, 19%);
     padding-top:1rem;
+    position: fixed;
 }
 .topup {
     position: relative;
