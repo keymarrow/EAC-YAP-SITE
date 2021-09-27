@@ -13,7 +13,7 @@ nav.top{
     border: 1px solid #25273B;
     background-color: hsl(235, 23%, 19%);
     padding-top:1rem;
-    position: fixed;
+    position:relative;
 }
 .topup {
     position: relative;
@@ -664,11 +664,12 @@ p#top2{
 }
 .quicklinks{
     position: relative;
-    padding-left: 7rem;
+    padding-left: 6.5rem;
     bottom: 4rem;
     line-height: 2rem;
     text-decoration: none;
     color: white;
+    list-style: none;
 }
 .quicklinks a{
     text-decoration: none;
