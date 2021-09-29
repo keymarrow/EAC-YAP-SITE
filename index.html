@@ -18,18 +18,29 @@
             <p class="topup" id="top2"><img class="emailicon" src="/Group 163066.svg" alt="emailicon"> Email:info@yap.co.tz</p>
         </div>
     </nav>
-    <nav class="topnav">
-        <a href="#logo"><img src="/logo.svg" class="logo"></a>
-        <ul class="menu">
-            <li id="li" class="active"><a href="#home">Home</a></li>
-            <li id="li"><a href="#about">About</a></li>
-            <li id="li"><a href="#initiative">initiative</a></li>
-            <li id="li"><a href="#Events">Events</a></li>
-            <li id="li"><a href="#aumin">Alumin</a></li>
-            <li id="li"><a href="#blogs">Blogs</a></li>
+    <nav id="navbar">
+        <div class="nav-logo"><a href="#logo"><img src="/logo.svg" class="hiddenlogo"></a></div>
+        <ul class="hiddenmenu">
+            <li id="lis" class="active100"><a href="#home">Home</a></li>
+            <li id="lis"><a href="#about">About</a></li>
+            <li id="lis"><a href="#initiative">initiative</a></li>
+            <li id="lis"><a href="#Events">Events</a></li>
+            <li id="lis"><a href="#aumin">Alumin</a></li>
+            <li id="lis"><a href="#blogs">Blogs</a></li>
         </ul>
-        <div class="bookmark"><img class="booking" src="/bookmark.svg"><button type="button">Reach Out</button> </div>
     </nav>
+    <nav class="topnav">
+            <a href="#logo"><img src="/logo.svg" class="logo"></a>
+            <ul class="menu">
+                <li id="li" class="active"><a href="#home">Home</a></li>
+                <li id="li"><a href="#about">About</a></li>
+                <li id="li"><a href="#initiative">initiative</a></li>
+                <li id="li"><a href="#Events">Events</a></li>
+                <li id="li"><a href="#aumin">Alumin</a></li>
+                <li id="li"><a href="#blogs">Blogs</a></li>
+            </ul>
+        <div class="bookmark"><img class="booking" src="/bookmark.svg"><button type="button">Reach Out</button> </div>
+    </nav> 
     <div class="header">
         <div class="banner">
             <div class="heading">
@@ -243,5 +254,17 @@
         <p>Designed by iPF Softwares Allrights reserved</p>
     </div>
 </footer>
+<script>
+    // When the user scrolls down 20px from the top of the document, slide down the navbar
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-100px";
+      }
+    }
+    </script>
 </body>
 </html>

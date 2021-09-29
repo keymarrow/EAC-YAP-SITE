@@ -120,7 +120,7 @@ p#top2{
     left: 0;
     bottom: -6px;
     width: 100%;
-    height: 4px;
+    height: 3px;
    background-color: #0f8114;
 }
 .famphoto h1{
@@ -181,7 +181,6 @@ p#top2{
     opacity: 1;
     width: 500px;
     height: 300px;
-    display: block;
     position: absolute;
     left: 68%;
     top: 128%;
@@ -481,6 +480,7 @@ p#top2{
     border: 3px solid #ffffff;
     width: 250px;
     height: 390px;
+    margin-left: 2rem;
     background-color: #ffffff;
     box-shadow: #333;
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
@@ -525,7 +525,7 @@ p#top2{
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 16px 40px #7090B033;
     border-radius: 10px;opacity: 1;
-    margin-left: 3rem;
+    margin-left: 5rem;
 }
 .contact2 h2{
     position: relative;
@@ -553,7 +553,7 @@ p#top2{
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 16px 40px #7090B033;
     border-radius: 10px;opacity: 1;
-    margin-left: 3rem;
+    margin-left: 5rem;
 }
 .contact3 img{
     position: relative;
@@ -586,7 +586,7 @@ p#top2{
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 16px 40px #7090B033;
     border-radius: 10px;opacity: 1;
-    margin-left: 3rem;
+    margin-left: 5rem;
 }
 .contact4 img{
     position: relative;
@@ -623,7 +623,7 @@ p#top2{
     width: 10px;
     height: 10px;
     margin-top: 3rem;
-    margin-left: 73rem;
+    margin-left: 81rem;
 }
 #arrow {
     position: relative;
@@ -637,7 +637,7 @@ p#top2{
     width: 10px;
     height: 10px;
     bottom: 3.1rem;
-    margin-left: 69rem;
+    margin-left: 77rem;
 }
 .footer{
     position: relative;
@@ -751,7 +751,6 @@ p#top2{
 .End-Footer{
     margin-top: 28rem;
     position: relative;
-    display: inline-block;
     color: #BABCC2;
     font-family: "Open sans",sans-serif;
 }
@@ -767,4 +766,40 @@ p#top2{
     height: 2px;
     margin-left: 6rem;
    background-color: #C1C2C5;
+}
+
+#navbar {
+    background-color: #ffffff;
+    position: fixed;
+    top: -100px;
+    width: 100%;
+    height: 70px;
+    transition: top 0.3s;
+    padding: 4px;
+    font-family: "work sans", sans-serif;
+  }
+
+  #navbar ul{
+    position: relative;
+    text-align: right;
+    margin-right: 3rem;
+    bottom: 2.7rem;
+  }
+  
+  #navbar a {
+    position: relative;
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+  }
+
+  #lis {
+    display: inline;
+    padding-right: 1.5rem;
+}
+  .hiddenlogo{
+    position: relative;
+    width: 220px;
+    padding-left: 60px;
 }
