@@ -181,7 +181,7 @@ p#top2{
     float: right;
 }
 .videoimg{
-    background-image: url(/famm.jpg);
+    background-image: url(famm.jpg);
     background-size: cover;
     background-color: #033C04 0% 0% no-repeat padding-box;
     border-radius: 15px;
@@ -215,7 +215,7 @@ p#top2{
     cursor: pointer;
 }
 .header{
-    background-image: url("/background.jpg");
+    background-image: url("background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
