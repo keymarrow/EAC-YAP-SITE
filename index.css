@@ -766,7 +766,7 @@ p#top2{
 }
 .End-Footer p{
     position: relative;
-    margin-left: 36rem;
+    text-align: center;
 }
 .End-Footer::before{
     content: "";
@@ -779,7 +779,7 @@ p#top2{
 }
 
 #navbar {
-    background-color: #ffffff;
+    background-color: #f5f4f4;
     position: fixed;
     top: -100px;
     width: 100%;
