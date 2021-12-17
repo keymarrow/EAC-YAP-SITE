@@ -15,6 +15,9 @@ nav.top{
     padding-top:1rem;
     position:relative;
 }
+.iconlogo{
+    width: auto;
+}
 .topup {
     position: relative;
     display: inline-flex;
