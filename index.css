@@ -1,8 +1,8 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 nav.top{
     color: #fefeff;
     width: 100%;
@@ -150,8 +150,8 @@ p#top2{
 }
 .logo
 {
-    position: absolute;
-    width: 150px;
+    position: relative;
+    width: 0rem;
     float: left;
     padding-left: 60px;
     padding-bottom: 3rem   
@@ -814,8 +814,8 @@ p#top2{
     padding-right: 1.5rem;
 }
   .hiddenlogo{
-    position:static;
-    width: 150px;
+    position:relative;
+    width: 0rem;
     float: left;
     padding-left: 60px;
     padding-bottom: 3rem 
